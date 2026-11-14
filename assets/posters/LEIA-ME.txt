@@ -1,0 +1,70 @@
+Pôsteres: assets/posters/N.jpg, onde N é a posição na linha do tempo (1 a 67).
+Se faltar o arquivo, o site mostra um pôster gerado automaticamente. Troque a imagem mantendo o nome.
+
+1.jpg -> Olhos de Wakanda
+2.jpg -> Capitão América: O Primeiro Vingador
+3.jpg -> Capitã Marvel
+4.jpg -> Homem de Ferro
+5.jpg -> Homem de Ferro 2
+6.jpg -> O Incrível Hulk
+7.jpg -> Thor
+8.jpg -> Os Vingadores
+9.jpg -> Thor: O Mundo Sombrio
+10.jpg -> Homem de Ferro 3
+11.jpg -> Capitão América 2: O Soldado Invernal
+12.jpg -> Guardiões da Galáxia
+13.jpg -> Guardiões da Galáxia Vol. 2
+14.jpg -> Eu Sou Groot
+15.jpg -> Eu Sou Groot — Temporada 2  (sem imagem: pôster automático)
+16.jpg -> Vingadores: Era de Ultron
+17.jpg -> Homem-Formiga
+18.jpg -> Capitão América: Guerra Civil
+19.jpg -> Viúva Negra
+20.jpg -> Pantera Negra
+21.jpg -> Homem-Aranha: De Volta ao Lar
+22.jpg -> Doutor Estranho
+23.jpg -> Thor: Ragnarok
+24.jpg -> Homem-Formiga e a Vespa
+25.jpg -> Vingadores: Guerra Infinita
+26.jpg -> Vingadores: Ultimato
+27.jpg -> Loki — Temporada 1
+28.jpg -> What If...? — Temporada 1
+29.jpg -> Marvel Zombies  (sem imagem: pôster automático)
+30.jpg -> WandaVision
+31.jpg -> Shang-Chi e a Lenda dos Dez Anéis
+32.jpg -> Falcão e o Soldado Invernal
+33.jpg -> Homem-Aranha: Longe de Casa
+34.jpg -> Eternos
+35.jpg -> Homem-Aranha: Sem Volta para Casa
+36.jpg -> Doutor Estranho no Multiverso da Loucura
+37.jpg -> Gavião Arqueiro
+38.jpg -> Cavaleiro da Lua
+39.jpg -> Pantera Negra: Wakanda Para Sempre
+40.jpg -> Echo
+41.jpg -> Mulher-Hulk: Defensora de Heróis
+42.jpg -> Ms. Marvel
+43.jpg -> Thor: Amor e Trovão
+44.jpg -> Coração de Ferro
+45.jpg -> Lobisomem na Noite  (sem imagem: pôster automático)
+46.jpg -> Guardiões da Galáxia: Especial de Festas
+47.jpg -> Homem-Formiga e a Vespa: Quantumania
+48.jpg -> Guardiões da Galáxia Vol. 3
+49.jpg -> Invasão Secreta
+50.jpg -> As Marvels
+51.jpg -> Loki — Temporada 2
+52.jpg -> What If...? — Temporada 2  (sem imagem: pôster automático)
+53.jpg -> Deadpool & Wolverine
+54.jpg -> Agatha Desde Sempre
+55.jpg -> What If...? — Temporada 3  (sem imagem: pôster automático)
+56.jpg -> Demolidor: Renascido
+57.jpg -> Capitão América: Admirável Mundo Novo
+58.jpg -> Thunderbolts*
+59.jpg -> Quarteto Fantástico: Primeiros Passos
+60.jpg -> Wonder Man
+61.jpg -> Demolidor: Renascido — Temporada 2  (sem imagem: pôster automático)
+62.jpg -> O Justiceiro: Uma Última Morte  (sem imagem: pôster automático)
+63.jpg -> Homem-Aranha: Um Novo Dia
+64.jpg -> VisionQuest
+65.jpg -> X-Men '97 — Temporada 1  (sem imagem: pôster automático)
+66.jpg -> X-Men '97 — 2ª Temporada
+67.jpg -> O Amigão da Vizinhança Homem-Aranha  (sem imagem: pôster automático)
