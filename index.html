@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MARVEL — Toda a História em Ordem</title>
+<meta name="description" content="Acompanhe toda a história dos personagens da Marvel, filme por filme e série por série, na ordem cronológica.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="extras.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+<div class="scrollbar" id="scrollbar"></div>
+
+<!-- NAVEGAÇÃO -->
+<header class="nav">
+  <a href="#inicio" class="logo-sm">MARVEL</a>
+  <nav>
+    <a href="#timeline">Início e linha do tempo</a>
+  </nav>
+  <div class="mini-progress" aria-live="polite"><span id="navPct">0%</span></div>
+</header>
+
+<!-- 2. PÁGINA INICIAL -->
+<section class="hero" id="inicio">
+  <canvas id="fx" class="fx" aria-hidden="true"></canvas>
+  <div class="hero-glow"></div>
+  <div class="halftone"></div>
+  <div class="hero-inner">
+    <div class="logo">MARVEL</div>
+    <h1>Toda a <em>História</em></h1>
+    <div class="stones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <p class="intro">A trajetória completa dos personagens da Marvel, do começo ao fim: 67 filmes, séries e especiais na ordem cronológica da história, com o que cada um acrescenta à trama. Marque o que já viu e acompanhe seu progresso. Projeto de fã, não oficial.</p>
+    <div class="btns">
+      <a class="btn primary" href="#timeline">Começar jornada</a>
+    </div>
+  </div>
+</section>
+
+<main>
+<!-- 3 + 5. LINHA DO TEMPO E PROGRESSO -->
+<section id="timeline" class="section">
+  <h2>Cronologia completa</h2>
+  <div class="progress-box">
+    <div class="gauntlet" id="gauntlet" aria-hidden="true"></div>
+    <div class="bar"><div id="bar"></div></div>
+    <p id="progText"></p>
+    <div class="filters">
+      <button class="chip on" data-f="all">Todos</button>
+      <button class="chip" data-f="ess">Essenciais</button>
+      <button class="chip" data-f="main">Só linha principal</button>
+      <button class="chip" data-f="todo">Faltam</button>
+      <button class="chip" data-f="done">Assistidos</button>
+      <button class="chip reset" id="resetBtn">Reiniciar progresso</button>
+    </div>
+  </div>
+  <details class="where">
+    <summary>Como ler esta ordem, onde assistir e legenda</summary>
+    <p><b>Ordem:</b> segue a cronologia da história (a mesma lógica da linha do tempo da Marvel no Disney+). Cada título mostra o que ele acrescenta à história principal e com o que se conecta. Se preferir evitar spoilers na primeira vez, use a ordem de lançamento na aba Todas Produções Marvel.</p>
+    <p><b>Onde assistir:</b> Disney+, Netflix, HBO Max e Star+. <span class="muted">Pode variar de acordo com o país.</span></p>
+    <ul>
+      <li><b>Essenciais:</b> filmes indispensáveis para entender a história principal do MCU.</li>
+      <li><b>Recomendados:</b> séries e filmes que aprofundam personagens e tramas importantes.</li>
+      <li><b>Opcionais:</b> conteúdos adicionais que expandem o universo e trazem curiosidades.</li>
+      <li><b>Universo paralelo:</b> What If...?, Marvel Zombies, X-Men '97 e O Amigão da Vizinhança Homem-Aranha ficam fora da linha principal.</li>
+      <li><b>Fora da lista:</b> curtas bônus (One-Shots, Team Thor, Daily Bugle), as séries da Netflix e Agents of S.H.I.E.L.D.</li>
+    </ul>
+  </details>
+  <div class="grid" id="grid"></div>
+  <div id="nextChapter"></div>
+</section>
+
+</main>
+
+<footer>Projeto de fã sem fins lucrativos. Marvel, personagens e títulos pertencem à Marvel/Disney.</footer>
+
+<!-- MODAL DE PRODUÇÃO -->
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true">
+  <div class="modal-box">
+    <button class="close" data-close aria-label="Fechar">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="extras.js"></script>
+<script src="extras2.js"></script>
+<script src="extras3.js"></script>
+<script src="extras4.js"></script>
+<script src="saga.js"></script>
+<script src="tabs.js"></script>
+<script src="theme.js"></script>
+</body>
+</html>
